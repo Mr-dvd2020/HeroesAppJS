@@ -1,17 +1,18 @@
 import { Link, NavLink } from 'react-router-dom';
+import '../../styles/Navbar.css'; // Importa el archivo CSS
 
 export const Navbar = () => {
     const handleLogout = ()=>{
         console.log('logout');
     }
     return (
-        <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-sm navbar-dark navbar-custom">
             
             <Link 
                 className="navbar-brand" 
                 to="/"
             >
-                Asociaciones
+                Principal
             </Link>
 
             <div className="navbar-collapse">

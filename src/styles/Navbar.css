@@ -1,0 +1,15 @@
+/* src/styles/Navbar.css */
+.navbar-custom {
+    background-color: #FF8800;
+    height: 15vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .navbar-nav {
+    justify-content: center;
+  }
+  
+  .nav-item {
+    margin: 0 10px; /* Añade margen entre los elementos */
+  }
